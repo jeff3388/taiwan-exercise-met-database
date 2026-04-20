@@ -1,0 +1,73 @@
+[
+  {
+    "id": "weight-training-vigorous",
+    "name_zh": "重量訓練（高強度，大重量複合動作）",
+    "name_en": "Weight training, vigorous, compound lifts",
+    "category": "strength",
+    "met_value": 6.0,
+    "intensity": "vigorous",
+    "kcal_per_hour_60kg": 360,
+    "kcal_per_hour_70kg": 420,
+    "kcal_30min_60kg": 180,
+    "taiwan_context": "深蹲、硬舉、臥推等複合動作的高強度訓練。台灣健身房（World Gym、Just Gym）普遍。注意：MET 值低估了重訓的能量消耗，因未計入蛋白質合成的能量需求和訓練後 EPOC",
+    "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
+    "notes": "重訓的熱量消耗因休息時間長短差異極大（短休息 MET 較高）",
+    "_meta": { "last_updated": "2026-04-07" }
+  },
+  {
+    "id": "weight-training-moderate",
+    "name_zh": "重量訓練（中強度，器械訓練）",
+    "name_en": "Weight training, moderate, machine-based",
+    "category": "strength",
+    "met_value": 3.5,
+    "intensity": "moderate",
+    "kcal_per_hour_60kg": 210,
+    "kcal_per_hour_70kg": 245,
+    "kcal_30min_60kg": 105,
+    "taiwan_context": "器械式訓練（腿推機、滑輪下拉）的中等強度版本，適合初學者",
+    "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
+    "_meta": { "last_updated": "2026-04-07" }
+  },
+  {
+    "id": "bodyweight-pushup-situp",
+    "name_zh": "徒手訓練（伏地挺身、仰臥起坐、深蹲）",
+    "name_en": "Bodyweight training (push-ups, sit-ups, squats)",
+    "category": "strength",
+    "met_value": 3.8,
+    "intensity": "moderate",
+    "kcal_per_hour_60kg": 228,
+    "kcal_per_hour_70kg": 266,
+    "kcal_30min_60kg": 114,
+    "taiwan_context": "不需器材，適合居家訓練。台灣政府運動場、學校操場的常見晨間運動",
+    "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
+    "_meta": { "last_updated": "2026-04-07" }
+  },
+  {
+    "id": "plank-core-training",
+    "name_zh": "棒式 / 核心訓練",
+    "name_en": "Plank / core exercises",
+    "category": "strength",
+    "met_value": 3.5,
+    "intensity": "moderate",
+    "kcal_per_hour_60kg": 210,
+    "kcal_per_hour_70kg": 245,
+    "kcal_30min_60kg": 105,
+    "taiwan_context": "核心訓練通常以 30–60 秒為一組，實際訓練時間短但強度高。MET 值為持續執行的估算",
+    "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
+    "_meta": { "last_updated": "2026-04-07" }
+  },
+  {
+    "id": "yoga",
+    "name_zh": "瑜珈（哈達瑜珈）",
+    "name_en": "Yoga, Hatha",
+    "category": "flexibility",
+    "met_value": 2.5,
+    "intensity": "light",
+    "kcal_per_hour_60kg": 150,
+    "kcal_per_hour_70kg": 175,
+    "kcal_30min_60kg": 75,
+    "taiwan_context": "台灣瑜珈教室普及，是女性最常見的運動選項之一。注意：高溫瑜珈（hot yoga）MET 可達 4.0–5.0",
+    "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
+    "_meta": { "last_updated": "2026-04-07" }
+  }
+]

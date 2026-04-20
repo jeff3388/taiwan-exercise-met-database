@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "台灣運動 MET 資料項目（Taiwan Exercise MET Entry）",
+  "type": "object",
+  "required": ["id", "name_zh", "name_en", "category", "met_value", "intensity", "kcal_per_hour_60kg", "kcal_per_hour_70kg", "source"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "唯一識別碼，kebab-case"
+    },
+    "name_zh": { "type": "string", "description": "中文運動名稱（含強度說明）" },
+    "name_en": { "type": "string", "description": "英文運動名稱" },
+    "category": {
+      "type": "string",
+      "enum": ["aerobic", "strength", "daily-activity", "taiwan-sports", "flexibility"],
+      "description": "運動類別"
+    },
+    "met_value": {
+      "type": "number",
+      "minimum": 1.0,
+      "maximum": 20.0,
+      "description": "代謝當量（1 MET = 靜息代謝率，約 3.5 ml O₂/kg/min）"
+    },
+    "intensity": {
+      "type": "string",
+      "enum": ["sedentary", "light", "moderate", "vigorous", "very-vigorous"],
+      "description": "WHO 強度分級：light <3 METs, moderate 3–6, vigorous >6"
+    },
+    "kcal_per_hour_60kg": {
+      "type": "number",
+      "description": "60 公斤成人每小時消耗熱量（= MET × 60 × 1）"
+    },
+    "kcal_per_hour_70kg": {
+      "type": "number",
+      "description": "70 公斤成人每小時消耗熱量（= MET × 70 × 1）"
+    },
+    "kcal_30min_60kg": {
+      "type": "number",
+      "description": "60 公斤成人 30 分鐘消耗熱量（= MET × 60 × 0.5）"
+    },
+    "met_code": {
+      "type": "string",
+      "description": "Ainsworth (2011) 彙整表原始代碼（可選）"
+    },
+    "taiwan_context": {
+      "type": "string",
+      "description": "台灣特有情境說明、常見執行方式、注意事項"
+    },
+    "source": { "type": "string", "description": "MET 值來源引用" },
+    "notes": { "type": "string", "description": "補充說明" },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "last_updated": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}
