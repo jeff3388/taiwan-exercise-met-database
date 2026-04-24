@@ -12,7 +12,9 @@
     "met_code": "19065",
     "taiwan_context": "台灣公園早晨最常見的運動，中老年族群尤其普遍。衛福部認可為適合銀髮族的中等強度活動。對平衡感和柔軟度有益",
     "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
-    "_meta": { "last_updated": "2026-04-07" }
+    "_meta": {
+      "last_updated": "2026-04-07"
+    }
   },
   {
     "id": "table-tennis",
@@ -27,7 +29,9 @@
     "met_code": "03445",
     "taiwan_context": "台灣桌球普及率極高，公園和里民活動中心設施完善。是台灣中老年族群最常見的中強度運動之一",
     "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
-    "_meta": { "last_updated": "2026-04-07" }
+    "_meta": {
+      "last_updated": "2026-04-07"
+    }
   },
   {
     "id": "badminton-recreational",
@@ -42,7 +46,9 @@
     "met_code": "03015",
     "taiwan_context": "台灣最熱門的球類運動之一，全台公私立室內球場眾多。週末打 1 小時羽球（雙打）約消耗 270 kcal（60kg）",
     "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
-    "_meta": { "last_updated": "2026-04-07" }
+    "_meta": {
+      "last_updated": "2026-04-07"
+    }
   },
   {
     "id": "badminton-competitive",
@@ -56,7 +62,9 @@
     "kcal_30min_60kg": 210,
     "taiwan_context": "競技單打強度遠高於休閒雙打，是台灣青壯年族群高效燃脂選項",
     "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
-    "_meta": { "last_updated": "2026-04-07" }
+    "_meta": {
+      "last_updated": "2026-04-07"
+    }
   },
   {
     "id": "basketball-half-court",
@@ -70,7 +78,9 @@
     "kcal_30min_60kg": 180,
     "taiwan_context": "台灣學校和社區籃球場普遍，3 對 3 籃球是最常見的打法",
     "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
-    "_meta": { "last_updated": "2026-04-07" }
+    "_meta": {
+      "last_updated": "2026-04-07"
+    }
   },
   {
     "id": "hiking-moderate-taiwan",
@@ -85,7 +95,9 @@
     "met_code": "08030",
     "taiwan_context": "台灣四面環山，郊山爬山極為普及（陽明山、象山、虎頭山）。有坡度的山路 MET 約 6–8，背負背包可增加 0.5–1.0 MET。一般郊山 2 小時健行（60kg）約消耗 840 kcal",
     "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
-    "_meta": { "last_updated": "2026-04-07" }
+    "_meta": {
+      "last_updated": "2026-04-07"
+    }
   },
   {
     "id": "hiking-alpine-taiwan",
@@ -99,7 +111,9 @@
     "kcal_30min_60kg": 240,
     "taiwan_context": "台灣百岳登頂（玉山、雪山、合歡山群）通常需要背負 15–20kg 裝備。連續 8 小時重裝登山（60kg）可消耗約 3,840 kcal",
     "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
-    "_meta": { "last_updated": "2026-04-07" }
+    "_meta": {
+      "last_updated": "2026-04-07"
+    }
   },
   {
     "id": "swimming-lessons-taiwan",
@@ -113,6 +127,59 @@
     "kcal_30min_60kg": 105,
     "taiwan_context": "台灣公共游泳池收費低（約 $50–100），適合夏季運動。輕度游泳（自由泳緩慢或混合泳姿）MET 約 3.5，訓練等級可達 8.0+",
     "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
-    "_meta": { "last_updated": "2026-04-07" }
+    "_meta": {
+      "last_updated": "2026-04-07"
+    }
+  },
+  {
+    "id": "pickleball",
+    "name_zh": "匹克球（Pickleball）",
+    "name_en": "Pickleball",
+    "category": "taiwan-sports",
+    "met_value": 4.5,
+    "intensity": "moderate",
+    "kcal_per_hour_60kg": 270,
+    "kcal_per_hour_70kg": 315,
+    "kcal_30min_60kg": 135,
+    "met_code": "03455",
+    "taiwan_context": "2024-2026 年台灣最快速成長的運動項目之一，新北、台北、高雄均已設置公共場地。中老年族群接受度高，因場地較小、衝擊性低，適合膝蓋不適者",
+    "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities. MET estimated from racquet sports category.",
+    "_meta": {
+      "last_updated": "2026-04-24"
+    }
+  },
+  {
+    "id": "weight-training-moderate",
+    "name_zh": "重量訓練（中等強度）",
+    "name_en": "Weight training, moderate effort",
+    "category": "strength",
+    "met_value": 5.0,
+    "intensity": "moderate",
+    "kcal_per_hour_60kg": 300,
+    "kcal_per_hour_70kg": 350,
+    "kcal_30min_60kg": 150,
+    "met_code": "02054",
+    "taiwan_context": "台灣健身房（World Gym、健身工廠）會員人數 2023 年突破 150 萬人；重訓對減脂和預防肌少症效果優於單純有氧，是燃脂研究所推薦的核心運動型態",
+    "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
+    "_meta": {
+      "last_updated": "2026-04-24"
+    }
+  },
+  {
+    "id": "hiking-moderate-slope",
+    "name_zh": "爬山健行（中等坡度）",
+    "name_en": "Hiking, cross country, moderate slope",
+    "category": "taiwan-sports",
+    "met_value": 6.0,
+    "intensity": "moderate-vigorous",
+    "kcal_per_hour_60kg": 360,
+    "kcal_per_hour_70kg": 420,
+    "kcal_30min_60kg": 180,
+    "met_code": "02080",
+    "taiwan_context": "台灣擁有超過 200 條親民步道，陽明山、象山、小百岳系列均為熱門選擇。假日爬山是台灣最普及的家庭運動型態之一",
+    "source": "Ainsworth BE et al. (2011). 2011 Compendium of Physical Activities.",
+    "_meta": {
+      "last_updated": "2026-04-24"
+    }
   }
 ]
